@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ 
+.navigation{
+   background-image: linear-gradient(dodgerblue , rgb(6, 83, 160));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.logo{
+
+    margin-left: 50px;
+    color: white;
+}
+.navigation > ul{
+    display: flex;
+    margin-right: 50px;
+}
+
+
+.navigation > ul > li{
+    list-style: none;
+    margin: 0px -1px;
+    padding: 21px 0px;
+    font-size: 20px;
+    border-right: 1px solid white;
+    transition: 0.5s;
+    
+
+    
+}
+.navigation > ul > li:hover{
+    background-color: rgb(15, 107, 199);
+}
+
+.home{
+    border-left: 1px solid white;
+    margin-left: 32px;
+   
+}
+.navigation > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding-left: 22px;
+    padding-right: 14px;
+   
+}  
+
+.home > ul > li > a{
+    text-decoration: none;
+    color: white;
+    
+}
+.home > ul{
+    background-image: linear-gradient(dodgerblue , rgb(7, 80, 153));
+   opacity: 0;
+   visibility: hidden;
+    position: absolute;
+    list-style: none;
+    width: 187px;
+    margin-top: 21px;
+    text-align:center;
+    border: 1px solid white;
+    transition: 1s;
+    
+    
+   
+}
+
+.home{
+    margin-right: 15px;
+}
+
+.home ul li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    
+}
+.home ul > li:hover{
+    background-color:rgb(15, 107, 199) ;
+    transition: 0.5s;
+ 
+    
+}
+.navigation > ul > li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    
+   
+}
